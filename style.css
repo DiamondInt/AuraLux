@@ -1,0 +1,369 @@
+
+
+/* Navbar properties */
+
+.navbar-container {
+    width: 100%;
+    background-color: white;
+    color: #fff;
+}
+
+.navbar-table {
+    width: 100%;
+}
+
+/* Logo properties */
+
+.logo-cell {
+    text-align: left;
+}
+
+.logo-image {
+    height: 50px;
+    padding: 10px;
+}
+
+.links-cell {
+    text-align: right;
+    list-style: none;
+}
+
+/* Navbar Hover Properties */
+
+.navbar-link {
+    display: inline-block;
+    margin-right: 50px;
+    font-family: 'Michroma';
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-link:hover {
+   
+    border: 2px solid black;
+    padding: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+    
+.image-container {
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+}
+
+.image-container img {
+    position: relative;
+    bottom: 250px;
+}
+
+/* Image */
+
+.image-container figcaption {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    color: #fff;
+    padding: 10px;
+    font-family: 'Michroma', sans-serif;
+    font-size: 45px;
+}
+
+.search-container {
+    position: absolute;
+    top: 220px;
+    left: 850px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 10px;
+}
+
+.search-container input[type="text"] {
+    width: 250px;
+    padding: 8px;
+    border: none;
+    background: transparent;
+    color: white;
+}
+
+.search-container button {
+    padding: 8px 12px;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    font-family: 'Michroma', sans-serif;
+}
+
+/* Logos with external links */
+
+.logo-container {
+    position: absolute;
+}
+
+.logo-container a {
+    display: block; 
+}
+
+.ferrari-logo {
+    top: 600px;
+    left: 40px;
+}
+
+.mclaren-logo {
+    top: 590px;
+    left: 450px;
+}
+
+.porsche-logo {
+    top: 475px;
+    left: 900px;
+}
+    
+.video-container {
+    width: 1250px; 
+    height: 500px; 
+    overflow: hidden; 
+    position: relative; 
+}
+
+.video-container video {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+    
+
+
+/* Contact Us CSS */
+    
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Michroma', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.navbar-container {
+    background-color: white;
+}
+
+.navbar-table {
+    width: 100%;
+    color: #fff;
+}
+
+.navbar-table td {
+    padding: 10px;
+}
+
+.navbar-table a {
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.home-content {
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+}
+
+.hero-image {
+    margin: 0;
+}
+
+.hero-caption {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    color: #fff;
+    padding: 10px;
+    font-size: 50px;
+}
+
+.hero-text {
+    position: absolute;
+    top: 185px;
+    left: 50px;
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+    text-align: none;
+}
+
+.inputname-bar {
+    margin-top: 20px;
+}
+
+.inputname-bar input {
+    width: 300px;
+    padding: 9px;
+    border: none;
+    background-color: darkgray;
+    color: rgb(255, 255, 255);
+}
+
+.inputemail-bar input{
+    width:300px;
+    padding: 9px;
+    border: none;
+    top: 170px;
+    background-color: darkgray;
+    color: rgb(255, 255, 255);
+}
+
+.inputnumber-bar input{
+    width:300px;
+    padding: 9px;
+    border: none;
+    top: 250px;
+    background-color: darkgray;
+    color: rgb(255, 255, 255);
+}
+
+.inputnumber-bar button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+}
+
+
+/* About Us CSS */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Michroma', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.navbar-table {
+    width: 100%;
+    background-color: white;
+    color: #fff;
+}
+
+.navbar-table td {
+    padding: 10px;
+}
+
+.navbar-table a {
+    display: inline-block;
+    margin-right: 50px;
+    font-family: 'Michroma';
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.home-content {
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+}
+
+.hero-image {
+    margin: 0;
+}
+
+.hero-caption {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    color: #fff;
+    padding: 10px;
+    font-family: 'Michroma', sans-serif;
+    font-size: 50px;
+}
+
+.hero-text {
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    color: #fff;
+    padding: 10px;
+    font-family: 'Michroma', sans-serif;
+    font-size: 25px;
+}
+
+.button-container {
+    position: absolute;
+    top: 170px;
+    left: 14px;
+}
+
+.button-container button {
+    padding: 8px 12px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-family: 'Michroma', sans-serif;
+}
+    
+
+
+/* Marketplace CSS */
+    
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Michroma', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.navbar-table {
+    width: 100%;
+    background-color: white;
+    color: #fff;
+}
+
+.navbar-table td {
+    padding: 10px;
+}
+
+.navbar-table a {
+    display: inline-block;
+    margin-right: 50px;
+    font-family: 'Michroma';
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.marketplace-image {
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.marketplace-image img {
+    position: relative;
+    left: 5px; 
+    bottom: 45px; 
+}
+
+.flex-images {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    margin-left: 20px;
+   
+}
+
+.flex-images img {
+   
+    width: 30%; 
+    margin: 15px;
+    
+}
+    
+    
+    
+    
+    
+    
+    
